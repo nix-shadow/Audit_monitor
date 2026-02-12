@@ -267,7 +267,3 @@
 • **Use Case Comparison:** Statistical preferred for regulatory compliance, financial statement audits, and large populations requiring defensible conclusions; Nonstatistical suitable for internal audits, risk assessments, preliminary reviews, and situations where judgment-based targeting adds value
 
 ---
-
-## End of Answer Key
-
-**Note:** This document provides comprehensive answers to all questions covering ISO 27001/27002/27017/27018, COBIT, FEMA BCP framework, and audit sampling methods. All MCQ options are included for reference. Long answer questions (11-16) are formatted with 8 concise bullet points as requested.
