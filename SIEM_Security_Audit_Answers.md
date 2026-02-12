@@ -1,8 +1,13 @@
 # SIEM, Security, and Audit Questions - Answer Key
 
+---
+
 ## Multiple Choice Questions
 
+---
+
 ### Q.N.1. Which feature is a characteristic of later SIEMs?
+
 **Options:**
 - Manage network information and alerts
 - Manage network events and alerts
@@ -11,11 +16,12 @@
 
 **Answer:** Connect all security tools together into defined workflows
 
-**Explanation:** Later-generation SIEMs evolved beyond simple log collection and event management to provide security orchestration, automation, and response (SOAR) capabilities, connecting various security tools into integrated workflows.
+**Explanation:** Later-generation SIEM solutions evolved beyond basic log collection to integrate orchestration and automation (SOAR), enabling defined workflows between multiple security tools.
 
 ---
 
 ### Q.N.2. Which feature provides SIEM greater visibility into the entire network?
+
 **Options:**
 - Analyzing logs and alerts from a single-pane-of-glass
 - Complying with regulations
@@ -24,11 +30,12 @@
 
 **Answer:** Analyzing logs and alerts from a single-pane-of-glass
 
-**Explanation:** The single-pane-of-glass approach consolidates all security information in one unified view, providing comprehensive visibility across the entire network infrastructure.
+**Explanation:** A centralized “single-pane-of-glass” view consolidates security data, increasing visibility across the entire enterprise infrastructure.
 
 ---
 
 ### Q.N.3. Which three compliance regulations are legislative and industry-sponsored?
+
 **Options:**
 - Payment Industry Card (PIC) standard
 - General Data Protection Regulation (GDPR)
@@ -41,11 +48,12 @@
 - Payment Card Industry (PCI) standard
 - Health Insurance Portability and Accountability Act (HIPAA)
 
-**Explanation:** These three are the correct compliance regulations. Note: "Payment Industry Card (PIC)" is incorrect terminology - the proper name is PCI (Payment Card Industry).
+**Explanation:** GDPR and HIPAA are legislative regulations, while PCI DSS is an industry-mandated compliance standard.
 
 ---
 
 ### Q.N.4. Which problem was a barrier to the general acceptance of first-generation SIEM?
+
 **Options:**
 - The point solution approach to network security
 - Cost to purchase was prohibitive
@@ -54,11 +62,12 @@
 
 **Answer:** High-level of skill was required
 
-**Explanation:** First-generation SIEM systems were complex and required significant expertise to configure, manage, and interpret results, which created a barrier to widespread adoption.
+**Explanation:** Early SIEM platforms required extensive tuning, rule creation, and skilled analysts to manage alerts effectively.
 
 ---
 
 ### Q.N.5. What is one method that SIEM uses to analyze data?
+
 **Options:**
 - Apply security controls
 - Decipher encrypted logs and alerts
@@ -67,11 +76,12 @@
 
 **Answer:** Watch for known indicators of compromise (IoC)
 
-**Explanation:** SIEM systems monitor for known IoCs (patterns, signatures, behaviors) that indicate potential security breaches or malicious activity.
+**Explanation:** SIEM platforms correlate events against known IoCs to detect malicious activity.
 
 ---
 
 ### Q.N.6. What is the primary objective of post-implementation review in SDLC?
+
 **Options:**
 - Authorize vendor's final payment from escrow
 - Conduct remedial actions
@@ -80,11 +90,12 @@
 
 **Answer:** Determine that its organizational objectives have been fulfilled
 
-**Explanation:** The post-implementation review assesses whether the implemented system meets the business objectives and requirements that justified the project.
+**Explanation:** Post-implementation review verifies that business requirements and objectives have been met.
 
 ---
 
 ### Q.N.7. What is the IS auditor's primary purpose in regard to life-cycle management?
+
 **Options:**
 - To verify that internal controls are tested prior to implementation by a third-party review laboratory
 - To verify that all business contracts are properly signed and executed by management
@@ -93,11 +104,12 @@
 
 **Answer:** To verify that evidence supports the organizational objective and that each decision is properly authorized by management
 
-**Explanation:** IS auditors ensure proper governance, authorization, and alignment with organizational objectives throughout the system development lifecycle.
+**Explanation:** IS auditors ensure governance, documentation, and management authorization throughout the system lifecycle.
 
 ---
 
 ### Q.N.8. Which of the following design techniques will document internal logic functions used for data transformation?
+
 **Options:**
 - Entity-relationship diagram
 - Flowchart
@@ -106,11 +118,12 @@
 
 **Answer:** Flowchart
 
-**Explanation:** Flowcharts visually represent the logical flow and transformation processes within a system, making them ideal for documenting internal logic functions.
+**Explanation:** Flowcharts visually represent logical processing and decision paths used in data transformation.
 
 ---
 
 ### Q.N.9. Which of the following is used to add extra complexity before using a one-way data transformation algorithm?
+
 **Options:**
 - Data masking
 - Key stretching
@@ -119,11 +132,12 @@
 
 **Answer:** Salting
 
-**Explanation:** Salting adds random data to input before hashing to prevent rainbow table attacks and ensure identical inputs produce different outputs.
+**Explanation:** Salting adds random input before hashing to prevent precomputed attacks such as rainbow tables.
 
 ---
 
-### Q.N.10. An administrator notices that several users are logging in from suspicious IP addresses. After speaking with the users, the administrator determines that the employees were not logging in from those IP addresses and resets the affected users' passwords. Which of the following should the administrator implement to prevent this type of attack from succeeding in the future?
+### Q.N.10. An administrator notices that several users are logging in from suspicious IP addresses...
+
 **Options:**
 - Permissions assignment
 - Multifactor authentication
@@ -132,11 +146,19 @@
 
 **Answer:** Multifactor authentication
 
-**Explanation:** MFA provides an additional layer of security beyond passwords. Even if credentials are compromised, attackers cannot authenticate without the second factor.
+**Explanation:** MFA prevents unauthorized access even if credentials are compromised.
 
 ---
 
-### Q.N.11. A security analyst is reviewing the following logs: [10:00:00 AM] Login rejected - username administrator - password Spring2023 [10:00:01 AM] Login rejected - username jsmith - password Spring2023 [10:00:01 AM] Login rejected - username guest - password Spring2023 [10:00:02 AM] Login rejected - username cpolk - password Spring2023 [10:00:03 AM] Login rejected - username fmartin - password Spring2023. Which of the following attacks is most likely occurring?
+### Q.N.11. A security analyst is reviewing the following logs...
+[10:00:00 AM] Login rejected - username administrator - password Spring2023  
+[10:00:01 AM] Login rejected - username jsmith - password Spring2023  
+[10:00:01 AM] Login rejected - username guest - password Spring2023  
+[10:00:02 AM] Login rejected - username cpolk - password Spring2023  
+[10:00:03 AM] Login rejected - username fmartin - password Spring2023  
+
+Which of the following attacks is most likely occurring?
+
 **Options:**
 - Pass-the-hash
 - Account forgery
@@ -145,11 +167,12 @@
 
 **Answer:** Password spraying
 
-**Explanation:** Password spraying uses the same password (Spring2023) against multiple usernames, unlike brute-force which tries multiple passwords against one account.
+**Explanation:** A single password is attempted across multiple accounts, which defines password spraying.
 
 ---
 
-### Q.N.12. During a security incident, the security operations team identified sustained network traffic from a malicious IP address: 10.1.4.9. A security analyst is creating an inbound firewall rule to block the IP address from accessing the organisation's network. Which of the following fulfils this request?
+### Q.N.12. During a security incident... block IP 10.1.4.9.
+
 **Options:**
 - access-list inbound permit ig source 0.0.0.0/0 destination 10.1.4.9/32
 - access-list inbound permit ig source 10.1.4.9/32 destination 0.0.0.0/0
@@ -158,11 +181,12 @@
 
 **Answer:** access-list inbound deny ig source 10.1.4.9/32 destination 0.0.0.0/0
 
-**Explanation:** This rule denies inbound traffic from the malicious source IP (10.1.4.9/32) to any destination (0.0.0.0/0) on the network.
+**Explanation:** This denies all inbound traffic from the malicious source IP.
 
 ---
 
-### Q.N.13. A cyber operations team informs a security analyst about a new tactic malicious actors are using to compromise networks. SIEM alerts have not yet been configured. Which of the following best describes what the security analyst should do to identify this behavior?
+### Q.N.13. New attacker tactic not configured in SIEM...
+
 **Options:**
 - Threat hunting
 - Digital forensics
@@ -171,11 +195,12 @@
 
 **Answer:** Threat hunting
 
-**Explanation:** Threat hunting is the proactive search for threats before they trigger automated alerts, ideal for identifying new tactics not yet configured in SIEM.
+**Explanation:** Threat hunting proactively identifies threats before automated detection rules exist.
 
 ---
 
-### Q.N.14. Which of the following is the most likely to be used to document risks, responsible parties, and thresholds?
+### Q.N.14. Which of the following is used to document risks, responsible parties, and thresholds?
+
 **Options:**
 - Risk analysis
 - Risk register
@@ -184,11 +209,12 @@
 
 **Answer:** Risk register
 
-**Explanation:** A risk register is a comprehensive document that catalogs identified risks, their owners, severity levels, mitigation strategies, and risk thresholds.
+**Explanation:** A risk register records risk ownership, severity, and mitigation strategies.
 
 ---
 
-### Q.N.15. A company is developing a business continuity strategy and needs to determine how many staff members would be required to sustain the business in the case of a disruption. Which of the following best describes this step?
+### Q.N.15. Determining required staff during disruption...
+
 **Options:**
 - Capacity planning
 - Tablet exercise
@@ -197,11 +223,12 @@
 
 **Answer:** Capacity planning
 
-**Explanation:** Capacity planning determines the resources (including personnel) needed to maintain business operations during disruptions.
+**Explanation:** Capacity planning determines resource requirements during business continuity scenarios.
 
 ---
 
-### Q.N.16. Which of the following factors are the most important to address when formulating a training curriculum plan for a security awareness program? (Select two)
+### Q.N.16. Security awareness curriculum (Select two)
+
 **Options:**
 - The reporting mechanisms for ethics violations
 - Cadence and duration of training events
@@ -212,11 +239,10 @@
 - Cadence and duration of training events
 - Threat vectors based on the industry in which the organization operates
 
-**Explanation:** Training frequency/duration and industry-specific threats ensure relevant, effective security awareness programs.
-
 ---
 
-### Q.N.17. A systems administrator is working on a solution with the following requirements: Provide a secure zone. Enforce a company-wide access control policy. Reduce the scope of threats. Which of the following is the systems administrator setting up?
+### Q.N.17. Secure zone, enforce access control, reduce threat scope...
+
 **Options:**
 - CIA
 - Zero Trust
@@ -225,11 +251,10 @@
 
 **Answer:** Zero Trust
 
-**Explanation:** Zero Trust architecture creates secure zones, enforces strict access controls, and minimizes attack surface by assuming no implicit trust.
-
 ---
 
-### Q.N.18. Which of these choices is the best answer regarding who is primarily responsible for providing internal controls to detect, correct, and prevent irregularities or illegal acts?
+### Q.N.18. Who is primarily responsible for providing internal controls?
+
 **Options:**
 - Board of directors
 - Human resources
@@ -238,24 +263,24 @@
 
 **Answer:** Board of directors
 
-**Explanation:** The board of directors has ultimate oversight responsibility for establishing and maintaining an effective internal control environment.
-
 ---
 
-### Q.N.19. Which of the following functions should be separated from the others if segregation of duties cannot be achieved in an automated system?
+### Q.N.19. Which function should be separated if segregation of duties cannot be achieved?
+
 **Options:**
 - Origination
 - Reprocessing
 - Transaction logging
 - Authorization
 
-**Answer:** Authorization
+**Answer:** Reprocessing
 
-**Explanation:** Authorization should be separated to prevent individuals from approving their own transactions, which is a critical control point.
+**Explanation:** Reprocessing allows rerunning or modifying transactions, increasing fraud risk if not separated.
 
 ---
 
-### Q.N.20. Segregation or separation of duties may not be practical in a small environment. A single employee may be performing the combined functions of server operator and application programmer. The IS auditor should recommend controls for which of the following?
+### Q.N.20. If segregation of duties isn’t practical...
+
 **Options:**
 - Automated controls to prevent the operator logon ID from making program modifications
 - Hiring additional technical staff to force segregation of duties
@@ -264,11 +289,10 @@
 
 **Answer:** Procedures that verify that only approved program changes are implemented
 
-**Explanation:** When segregation isn't possible, compensating controls like change verification procedures help ensure accountability and prevent unauthorized modifications.
-
 ---
 
 ### Q.N.21. Who should issue the organisational policies?
+
 **Options:**
 - The policy should be signed and enforced by any level of management.
 - The auditor should issue the policies in accordance with standards, and they should be authorized by the highest level of management to ensure compliance.
@@ -277,24 +301,23 @@
 
 **Answer:** The policy should be signed and enforced by the highest level of management.
 
-**Explanation:** Policies must have executive-level authority to ensure organization-wide compliance and demonstrate commitment from top leadership.
-
 ---
 
-### Q.N.22. How should the auditor assist in the remediation of problems found during the audit?
+### Q.N.22. How should the auditor assist in remediation?
+
 **Options:**
-- The auditor should take ownership of the issue and participate in designing the plan for fixing the problem. The auditor should help the auditees.
-- The auditor can add value by defining the specific steps necessary for remediation of the problem.
-- The auditor should decide whether the problem is major or minor and then advise the auditee with a specific solution after considering the impact to the business.
-- The auditor should never take ownership of problems found. Auditors are encouraged to provide general advice to the auditee, including an explanation of what to look for during the audit.
+- The auditor should take ownership...
+- The auditor can add value by defining specific steps...
+- The auditor should decide whether the problem is major or minor...
+- The auditor should never take ownership of problems found...
 
-**Answer:** The auditor should never take ownership of problems found. Auditors are encouraged to provide general advice to the auditee, including an explanation of what to look for during the audit.
-
-**Explanation:** Auditors must maintain independence and objectivity. Taking ownership of remediation compromises their ability to audit those controls in the future.
+**Answer:** The auditor should never take ownership of problems found. Auditors may provide general advice.
 
 ---
 
 ## Long Answer Questions
+
+
 
 ### Q.N.23. As a newly appointed Information Systems (IS) auditor in a medium-sized enterprise conducting a full-scope systems audit, explain how the foundational elements of the audit process contribute to a successful audit engagement. (13 marks)
 
