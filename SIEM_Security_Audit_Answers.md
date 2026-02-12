@@ -340,6 +340,3 @@
 
 ---
 
-## End of Answer Key
-
-**Note:** This document provides comprehensive answers to all 24 questions covering SIEM, security, compliance, and IS audit topics. All MCQ options are included for reference. Questions 23 and 24 are formatted with 8 concise bullet points as requested.
