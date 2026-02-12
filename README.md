@@ -197,7 +197,7 @@ All question sets follow a consistent format:
 ## Total Question Count
 
 - **Total Questions**: 104 questions across all files
-- **MCQs**: 72 covering diverse security topics
+- **MCQs**: 82 covering diverse security topics
   - Practice_Questions_Security_Audit.md: 25 MCQs
   - Advanced_Practice_Questions_Security_Audit.md: 25 MCQs
   - ISO_COBIT_FEMA_Audit_Answers.md: 10 MCQs
@@ -205,7 +205,7 @@ All question sets follow a consistent format:
 - **Long Answer Questions**: 19 with comprehensive coverage
   - Practice_Questions_Security_Audit.md: 6 Long Answer Questions
   - Advanced_Practice_Questions_Security_Audit.md: 5 Long Answer Questions
-  - ISO_COBIT_FEMA_Audit_Answers.md: 6 Long Answer Questions
+  - ISO_COBIT_FEMA_Audit_Answers.md: 6 Long Answer Questions (includes analytical question)
   - SIEM_Security_Audit_Answers.md: 2 Long Answer Questions
 - **Scenario-Based Questions**: 3 real-world case studies
   - Practice_Questions_Security_Audit.md: 1 Scenario
